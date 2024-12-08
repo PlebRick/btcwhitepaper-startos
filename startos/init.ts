@@ -9,7 +9,7 @@ import { yamlFile } from './file-models/config.yml'
 
 // **** Install ****
 const install = sdk.setupInstall(async ({ effects }) => {
-  const name = 'World'
+  const name = 'Bitcoin White Paper'
 
   await yamlFile.write({ name })
 

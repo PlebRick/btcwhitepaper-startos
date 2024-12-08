@@ -9,7 +9,7 @@ export const setInterfaces = sdk.setupInterfaces(async ({ effects }) => {
   const ui = sdk.createInterface(effects, {
     name: 'Web UI',
     id: 'ui',
-    description: 'The web interface of BTCWhitePaper',
+    description: 'View Bitcoin White Paper',
     type: 'ui',
     hasPrimary: false,
     masked: false,
