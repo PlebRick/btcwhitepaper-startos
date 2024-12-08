@@ -1,4 +1,3 @@
-
 ## **The Genesis of Freedom: Satoshi Nakamoto’s White Paper**
 
 ### Global Financial Crash
@@ -20,7 +19,5 @@ Over the past decade, Bitcoin has proven its resilience. It survived skepticism,
 ### Impact
 
 The impact of Satoshi’s white paper is immeasurable. It has sparked an explosion of innovation in decentralized finance, inspired movements for individual sovereignty, and catalyzed debates about the future of money and governance. More importantly, it has planted a seed of accountability, forcing governments and institutions to reckon with a monetary system that cannot be easily coerced or corrupted.
-
-### Future
 
 As Bitcoin continues to grow, its promise looms larger: the peaceful rebalancing of power between individuals and the state, an era where money is free from political interference, and a future where governments are held accountable by the people they serve. This is the legacy of Satoshi Nakamoto’s white paper—a beacon of freedom for those who dare to dream of a fairer world.
