@@ -26,7 +26,7 @@ export const main = sdk.setupMain(async ({ effects, started }) => {
    */
   return sdk.Daemons.of(effects, started, healthReceipts).addDaemon('primary', {
     image: { id: 'btcwhitepaper' },
-    command: ['btcwhitepaper'],
+    command: ['nginx', '-g', 'daemon off;'],
     mounts: sdk.Mounts.of().addVolume('main', null, '/data', false),
     ready: {
       display: 'Web Interface',

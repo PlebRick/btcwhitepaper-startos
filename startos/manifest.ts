@@ -1,11 +1,11 @@
 import { setupManifest } from '@start9labs/start-sdk'
 
 export const manifest = setupManifest({
-  id: 'btc-whitepaper',
+  id: 'btcwhitepaper',
   title: 'Bitcoin White Paper',
   license: 'mit',
   wrapperRepo: 'https://github.com/PlebRick/btcwhitepaper-startos/tree/master',
-  upstreamRepo: 'https://github.com/Start9Labs/hello-world',
+  upstreamRepo: 'https://github.com/PlebRick/btcwhitepaper-startos/tree/master',
   supportSite: 'https://docs.start9.com/',
   marketingSite: 'https://start9.com/',
   donationUrl: 'https://donate.start9.com/',
@@ -24,7 +24,7 @@ export const manifest = setupManifest({
   },
   hardwareRequirements: {},
   alerts: {
-    install: 'Optional alert to display before installing the service',
+    install: null,
     update: null,
     uninstall: null,
     restore: null,
