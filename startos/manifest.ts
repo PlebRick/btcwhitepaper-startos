@@ -1,24 +1,24 @@
 import { setupManifest } from '@start9labs/start-sdk'
 
 export const manifest = setupManifest({
-  id: 'hello-world',
-  title: 'Hello World',
+  id: 'btc-whitepaper',
+  title: 'Bitcoin White Paper',
   license: 'mit',
-  wrapperRepo: 'https://github.com/Start9Labs/hello-world-wrapper',
+  wrapperRepo: 'https://github.com/PlebRick/btcwhitepaper-startos/tree/master',
   upstreamRepo: 'https://github.com/Start9Labs/hello-world',
   supportSite: 'https://docs.start9.com/',
   marketingSite: 'https://start9.com/',
   donationUrl: 'https://donate.start9.com/',
   description: {
-    short: 'Bare bones example of a StartOS service',
-    long: 'Hello World is a template service that provides examples of basic StartOS features.',
+    short: 'View the Bitcoin whitepaper via StartOS.',
+    long: 'BTCWhitepaper is a simple service to view the Bitcoin whitepaper on a StartOS server.',
   },
   assets: [],
   volumes: ['main'],
   images: {
-    'hello-world': {
+    'btcwhitepaper': {
       source: {
-        dockerTag: 'start9/hello-world',
+        dockerTag: 'b1ackswan/btcwhitepaper',
       },
     },
   },

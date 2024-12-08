@@ -8,7 +8,7 @@ export const main = sdk.setupMain(async ({ effects, started }) => {
    *
    * In this section, we fetch any resources or run any desired preliminary commands.
    */
-  console.info('Starting Hello World!')
+  console.info('Starting Bitcoin White Paper!')
 
   /**
    * ======================== Additional Health Checks (optional) ========================
@@ -25,8 +25,8 @@ export const main = sdk.setupMain(async ({ effects, started }) => {
    * Each daemon defines its own health check, which can optionally be exposed to the user.
    */
   return sdk.Daemons.of(effects, started, healthReceipts).addDaemon('primary', {
-    image: { id: 'hello-world' },
-    command: ['hello-world'],
+    image: { id: 'btcwhitepaper' },
+    command: ['btcwhitepaper'],
     mounts: sdk.Mounts.of().addVolume('main', null, '/data', false),
     ready: {
       display: 'Web Interface',
